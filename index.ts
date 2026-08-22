@@ -2,7 +2,7 @@
 /** CoinRebate MCP server and shell-friendly CLI. */
 
 const API_BASE = process.env.COINREBATE_API_URL || 'https://www.coinrebate.vip';
-const MCP_VERSION = '2.2.0';
+const MCP_VERSION = '2.2.1';
 
 type AgentRouteData = {
     all_exchanges?: any[];

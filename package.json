@@ -1,6 +1,6 @@
 {
   "name": "@coinrebate/mcp-server",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "mcpName": "com.halffee/coinrebate",
   "description": "MCP server giving AI agents instant access to permanent crypto exchange fee discounts (up to 50% off, varies by exchange) via real referral codes. 6 tools: fee comparison, referral codes, country compliance filtering, savings calculator, news.",
   "type": "module",
