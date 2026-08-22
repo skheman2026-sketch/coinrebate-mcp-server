@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.halffee/coinrebate",
+  "description": "Compliance-filtered crypto exchange fee comparison and rebate-link routing for AI agents.",
+  "status": "active",
+  "repository": {
+    "url": "https://github.com/skheman2026-sketch/coinrebate-mcp-server",
+    "source": "github",
+    "subfolder": "mcp-server"
+  },
+  "version": "2.2.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@coinrebate/mcp-server",
+      "version": "2.2.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

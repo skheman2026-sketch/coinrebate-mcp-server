@@ -1,0 +1,65 @@
+{
+  "name": "@coinrebate/mcp-server",
+  "version": "2.2.0",
+  "mcpName": "com.halffee/coinrebate",
+  "description": "MCP server giving AI agents instant access to permanent crypto exchange fee discounts (up to 50% off, varies by exchange) via real referral codes. 6 tools: fee comparison, referral codes, country compliance filtering, savings calculator, news.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "coinrebate-mcp": "dist/index.js",
+    "coinrebate": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "server.json"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "crypto",
+    "cryptocurrency",
+    "trading",
+    "exchange",
+    "fees",
+    "rebate",
+    "affiliate",
+    "referral",
+    "ai-agent",
+    "claude",
+    "anthropic",
+    "binance",
+    "okx",
+    "bybit",
+    "bitget",
+    "compliance",
+    "geoip"
+  ],
+  "author": "CoinRebate <contact@coinrebate.vip>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skheman2026-sketch/coinrebate-mcp-server.git"
+  },
+  "homepage": "https://www.coinrebate.vip/for-agents",
+  "bugs": {
+    "url": "https://github.com/skheman2026-sketch/coinrebate-mcp-server/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
